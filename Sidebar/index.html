@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Sidebar</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <div id="sidebar_content">
+            <div id="logo">
+                <img src="src/images/lupa.png" id="logo_img" alt="Logo">
+            </div>
+            <ul id="side_items">
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-solid fa-skull"></i>
+                        <span class="item-description">
+                            Crime
+                        </span>
+                    </a>
+                </li>
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span class="item-description">
+                            Suspeitos
+                        </span>
+                    </a>
+                </li>
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-solid fa-train-subway"></i>
+                        <span class="item-description">
+                            Vagões
+                        </span>
+                    </a>
+                </li>
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-solid fa-user-secret"></i>
+                        <span class="item-description">
+                            Investigação
+                        </span>
+                    </a>
+                </li>
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <span class="item-description">
+                            Perfil
+                        </span>
+                    </a>
+                </li>
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <span class="item-description">
+                            Quem somos?
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <button id="open_btn">
+                <i id="open_btn_icon" class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        <div id="logout">
+            <button id="logout_btn">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span class="item-description">
+                    Logout
+                </span>
+            </button>
+        </div>
+    </nav>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
